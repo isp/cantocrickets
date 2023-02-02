@@ -11,7 +11,6 @@ export default function Home() {
 		<div className="h-screen flex flex-col justify-between">
 			<Head>
 				<title>Canto Crickets</title>
-				<p>333 Supply. No roadmap. !chirp</p>
 				<meta name="description" content="!chirp" />
 			</Head>
 
