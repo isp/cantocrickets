@@ -4,8 +4,8 @@ export default function Disclaimer() {
 	return (
 		<div className="h-screen flex flex-col justify-between">
 			<Head>
-				<title>VEGENS NFT</title>
-				<meta name="description" content="VEGENS NFT" />
+				<title>Canto Crickets</title>
+				<meta name="description" content="Canto Crickets" />
 			</Head>
 
 			<div className='flex justify-center flex-col items-center mx-48 mt-8'>
@@ -31,7 +31,7 @@ export default function Disclaimer() {
 					Promises<br/>
 					There are no guarantees or promises given or associated with VEGENS or any VEGENS related products.<br/>
 					<br/>
-					By minting and/or purchasing a VEGENS NFT, I hereby accept the terms and conditions presented.<br/>
+					By minting and/or purchasing a Canto Crickets, I hereby accept the terms and conditions presented.<br/>
 					<br/>
 					<br/>
 					Information<br/>
