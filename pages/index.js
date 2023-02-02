@@ -18,6 +18,10 @@ export default function Home() {
 				<div className="mb-4">
 					<Image src="/smaller.gif" width={480} height={470.63} />
 					<p className="w-full text-center font-modseven font-bold text-10xl md:text-lg md:font-bold">Canto Crickets. 333 supply. no roadmap. !chrip made by degens for the degns</p>
+					<p className="w-full text-center font-modseven font-bold text-10xl md:text-lg md:font-bold">333 supply. no roadmap.</p>
+					<p className="w-full text-center font-modseven font-bold text-10xl md:text-lg md:font-bold">!chrip made by degens for the degns</p>
+
+
 				</div>
 
 				<div className="grid-flow-col gap-4 space-x-4 justify-self-center md:place-self-center md:justify-self-end mb-4">
