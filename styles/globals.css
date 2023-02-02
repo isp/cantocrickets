@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 html {
-	background-image: url("/bg.jpg");
-  }
+	background: repeating-linear-gradient(0deg,#010000 0%,#010000 4px,#131816 4px,#131816 8px);
+	background-repeat: repeat-y;
+}

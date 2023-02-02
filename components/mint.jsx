@@ -190,9 +190,9 @@ export default class Minting extends React.Component {
 		if (maxSupply > 0 && currentSupply == maxSupply) {
 			return (
 				<>
-					<btn className="btn btn-disabled text-success mb-4">
+					<button className="btn btn-disabled text-success mb-4">
 						SOLD OUT!
-					</btn>
+					</button>
 				</>
 			)
 		}
