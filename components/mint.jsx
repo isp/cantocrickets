@@ -150,8 +150,9 @@ export default class Minting extends React.Component {
 		}
 
 		const tokenPrice = await contract.methods.price().call()
+		const alreadyMinted = await contract.methods.minted(account).call()
 		const balance = web3.utils.toBN(await web3.eth.getBalance(account))
-		const totalPrice = web3.utils.toBN(tokenPrice).mul(amount)
+		const totalPrice = web3.utils.toBN(tokenPrice).mul(amount > 1 && alreadyMinted == 0 && isWhitelisted ? amount - 1 : amount)
 		const enoughBalance = totalPrice.gt(balance)
 
 		if (enoughBalance) {
