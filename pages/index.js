@@ -11,12 +11,13 @@ export default function Home() {
 		<div className="h-screen flex flex-col justify-between">
 			<Head>
 				<title>Canto Crickets</title>
-				<meta name="description" content="CANTO CRICKETS" />
+				<p>333 Supply. No roadmap. !chirp</p>
+				<meta name="description" content="!chirp" />
 			</Head>
 
 			<div className='flex justify-center flex-col items-center mt-8'>
 				<div className="mb-4">
-					<Image src="/cricket.png" width={480} height={480} />
+					<Image src="/smaller.gif" width={480} height={470.63} />
 					<p className="w-full text-center font-sans font-bold text-4xl md:text-lg md:font-semibold">Canto Crickets</p>
 				</div>
 
