@@ -17,7 +17,8 @@ export default function Home() {
 			<div className='flex justify-center flex-col items-center mt-8'>
 				<div className="mb-4">
 					<Image src="/smaller.gif" width={480} height={470.63} />
-					<p className="w-full text-center font-sans font-bold text-4xl md:text-lg md:font-semibold">Canto Crickets</p>
+					<p className="w-full text-center font-modseven font-bold text-10xl md:text-lg md:font-bold">Canto Crickets</p>
+					<p className="w-full text-center font-sever font-bold text-4xl md:text-lg md:font-bold">333 Supply. No Roadmap. !chirp</p>
 				</div>
 
 				<div className="grid-flow-col gap-4 space-x-4 justify-self-center md:place-self-center md:justify-self-end mb-4">
