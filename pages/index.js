@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
+import localFont from '@next/font/local'
 
-import Link from 'next/link'
+const modseven = localFont({ src: '../public/modes.ttf' })
 
 const Minting = dynamic(() => import('../components/mint'))
 
@@ -15,14 +16,10 @@ export default function Home() {
 			</Head>
 
 			<div className='flex justify-center flex-col items-center mt-8'>
-				<div className="mb-4">
-					<Image src="/smaller.gif" width={480} height={470.63} />
-					<p className="w-full text-center font-modseven font-bold text-10xl md:text-lg md:font-bold">Canto Crickets. 333 supply. no roadmap. !chrip made by degens for the degns</p>
-					<p className="w-full text-center font-modseven font-bold text-10xl md:text-lg md:font-bold">333 supply. no roadmap.</p>
-					<p className="w-full text-center font-modseven font-bold text-10xl md:text-lg md:font-bold">!chrip made by degens for the degns</p>
-
-
-				</div>
+				<Image src="/smaller.gif" width={480} height={470.63} />
+				<p className={`w-full text-green-500 text-center ${modseven.className} text-4xl md:text-lg mt-4`}>Canto Crickets</p>
+				<p className={`w-full text-green-500 text-center ${modseven.className} text-4xl md:text-lg`}>333 supply. no roadmap.</p>
+				<p className={`w-full text-green-500 text-center ${modseven.className} text-4xl md:text-lg mb-4`}>!chirp made by degens for the degens</p>
 
 				<div className="grid-flow-col gap-4 space-x-4 justify-self-center md:place-self-center md:justify-self-end mb-4">
 					<a href="https://etherscan.io/address/0xf9713c11780151f142e3d1089efaec0646bcc314"><Image src="/etherscan.png" width={32} height={32} /></a>
@@ -30,8 +27,6 @@ export default function Home() {
 				</div>
 
 				<Minting />
-
-				<Link href="/disclaimer"><a className="link mt-2">Legal disclaimer</a></Link>
 			</div>
 		</div>
 	)
