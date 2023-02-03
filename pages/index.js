@@ -22,7 +22,7 @@ export default function Home() {
 				<p className={`w-full text-green-500 text-center ${modseven.className} text-lg md:text-2xl mb-4`}>!chirp made by degens for the degens</p>
 
 					<div className="flex flex-row gap-4  justify-self-center md:place-self-center md:justify-self-end mb-4">
-						<a href="https://etherscan.io/address/0xf9713c11780151f142e3d1089efaec0646bcc314"><Image src="/etherscan.png" width={32} height={32} /></a>
+						<a href="https://evm.explorer.canto.io/address/0x932f297E8920D1385739B58E10fF9824a91f520a"><Image src="/etherscan.png" width={32} height={32} /></a>
 						<a href="https://twitter.com/cantocrickets"><Image src="/twitter.png" width={32} height={32} /></a>
 					</div>
 
