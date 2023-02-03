@@ -100,8 +100,8 @@ export default class Minting extends React.Component {
 
 	async startApp(provider) {
 		const chainId = await ethereum.request({ method: 'eth_chainId' })
-		if (chainId != 0x1) {
-			this.throwError("Please switch to Ethereum Mainnet.")
+		if (chainId != 0x1E14) {
+			this.throwError("Please switch to Canto network.")
 			return
 		}
 
