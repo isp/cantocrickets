@@ -29,7 +29,7 @@ function IsWhitelisted(address) {
 	return WHITELIST.map(value => value.toLowerCase()).includes(address.toLowerCase())
 }
 
-const CONTRACT_ADDRESS = "0xf9713C11780151f142E3D1089efAEC0646BcC314"
+const CONTRACT_ADDRESS = "0x932f297E8920D1385739B58E10fF9824a91f520a"
 
 export default class Minting extends React.Component {
 	constructor(props) {
