@@ -215,7 +215,7 @@ export default class Minting extends React.Component {
 						type="range" 
 						value={this.state.mintAmount} 
 						min="1" 
-						max={5} 
+						max={2} 
 						className="range" 
 						step="1"
 						onChange={(ev) => {this.setState({mintAmount: ev.target.value})}} 
