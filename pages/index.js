@@ -18,7 +18,7 @@ export default function Home() {
 			<div className='flex justify-center flex-col items-center m-8'>
 				<Image src="/smaller.gif" width={480} height={470.63} />
 				<p className={`w-full text-green-500 text-center ${modseven.className} text-lg md:text-2xl mt-4`}>Canto Crickets</p>
-				<p className={`w-full text-green-500 text-center ${modseven.className} text-lg md:text-2xl`}>333 supply. no roadmap.</p>
+				<p className={`w-full text-green-500 text-center ${modseven.className} text-lg md:text-2xl`}>333 supply. 150 $CANTO. no roadmap.</p>
 				<p className={`w-full text-green-500 text-center ${modseven.className} text-lg md:text-2xl mb-4`}>!chirp made by degens for the degens</p>
 
 					<div className="flex flex-row gap-4  justify-self-center md:place-self-center md:justify-self-end mb-4">

@@ -224,9 +224,6 @@ export default class Minting extends React.Component {
 					<div className="w-full flex justify-between text-xs px-2 mb-4">
 						<span className="font-bold">1</span>
 						<span className="font-bold">2</span>
-						<span className="font-bold">3</span>
-						<span className="font-bold">4</span>
-						<span className="font-bold">5</span>
 					</div>
 
 					<button className="btn btn-secondary" onClick={this.mint}>Mint</button>
